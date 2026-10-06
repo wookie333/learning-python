@@ -106,11 +106,3 @@ c = np.array([1, 2, 3, 4, 5, 6])
 print(c.reshape(2, 3))
 # [[1 2 3]
 #  [4 5 6]]
-
-## Что дальше
-
-Урок 2: arange, linspace, zeros, ones
-Урок 3: операции над массивами
-Урок 4: broadcasting
-
-NumPy — фундамент ML. Без него никуда.
