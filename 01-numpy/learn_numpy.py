@@ -1,26 +1,21 @@
 import numpy as np
 
-#1
-mass1 = np.array([1, 2, 3, 4], dtype='int8')
-mass2 = np.array([1, 2, 3, 4], dtype='int16')
-mass3 = np.array([1, 2, 3, 4], dtype='float32')
-print(mass1.dtype, mass2.dtype, mass3.dtype)
-
-#2
-'''our_massiv = np.array([100, 200, 300], dtype='int8')
-print(our_massiv)'''
-'''Произойдет переполнение => сделаю через try except'''
-
-try:
-    our_massiv = np.array([100, 200, 300], dtype='int8')
-    print(our_massiv)
-except OverflowError as e:
-    print(e)
-
-#3
-mass_str = np.array([10, 20, 30], dtype='str_')
-print(mass_str)
-
-#4
-mass_3x3 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print(mass_3x3[1, 2])
+print(np.empty((3, 2)))
+print(np.eye(4))
+print(np.eye(4, 2))
+print(np.identity(4))
+print(np.zeros( (2, 3, 4) ))
+print(np.ones( [4, 3], dtype='int8' ))
+print(np.full((3, 2), -1))
+'''print(np.mat('1 2 3 4'))
+print(np.mat('1 2; 3 4'))
+print(np.mat(1, 2, 3, 4))'''
+print(np.diag([1, 2, 3]))
+print(np.diag([(1, 2, 3), (4, 5, 6), (7, 8, 9)]))
+print(np.diagflat([(1, 2, 3), (4, 5, 6), (7, 8, 9)]))
+print(np.tri(4, 2))
+print(np.tril([(1, 2, 3), (4, 5, 6), (7, 8, 9)]))
+print(np.triu([(1, 2, 3), (4, 5, 6), (7, 8, 9)]))
+print(np.vander([1, 2, 3]))
+print(np.arange(5))
+print(np.cos(np.arange(0, np.pi, 0.1)))
