@@ -29,9 +29,9 @@ np.geomspace(1, 8, 4)     # 1, 2, 4, 8
 
 ## Что запомнить
 
-zeros, ones, full — автозаполнение
-eye, identity — единичная матрица
-arange, linspace — диапазоны
-diag, tri — матрицы
+zeros, ones, full — автозаполнение;
+eye, identity — единичная матрица;
+arange, linspace — диапазоны;
+diag, tri — матрицы.
 
 Остальное — гуглить по необходимости.
