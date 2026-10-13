@@ -1,28 +1,40 @@
 import numpy as np
-a = np.array([[1, 2], [3, 4]])
-b = np.array([[5, 6], [7, 8]])
-print(np.hstack([a, b]))
-print(np.vstack([a, b])) #dims should be =
-new_a = np.fromiter(range(18), dtype='int32')
-print(new_a.resize((3, 3, 2)))
+a = np.array([1, 2, 3, 10, 20, 30])
+print(a.sum())
+print(a.min())
+print(a.mean())
+print(a.sum(axis=0))
+new_a = np.array([-1, 1, 5, -44, 32, 2])
+print(np.abs(new_a))
+print(np.amax(new_a))
+print(np.amin(new_a))
+print(np.round(0.7))
+print(np.round(0.5))
+print(np.argmax(new_a)) #тк максим эл-т 32 имеет индекс 4
+print(np.argmin(new_a))
+res_a = np.linspace(0, np.pi, 10)
+print(np.sin(res_a))
+print(np.cos(res_a))
+#псевдослуч числа
+print()
+print(np.random.rand())
+print(np.random.rand(2, 3))
+print(np.random.randint(10))
+print(np.random.randint(1, 10, size=(2, 5)))
+print(np.random.randn(2, 3))
+print()
+print(np.random.seed(13))
+sh_a = np.arange(10)
+print(np.random.shuffle(sh_a))
+print(np.random.permutation(sh_a))
 
+x = np.array([1, 4, 3, 7, 10, 8, 14, 21, 20, 23])
+y = np.array([4, 1, 6, 9, 13, 11, 16, 19, 15, 22])
 
-aa = np.array([1, 2, 3, 4])
-bb = np.array([5, 6, 7, 8])
+print(np.median(x))
+print(np.var(x))
+print(np.std(x))
 
-print(np.column_stack([aa, bb]))
-'''print(np.row_stack([aa, bb]))'''
-
-'''mass_a = np.arange(1, 13).resize(3, 3, 2)
-mass_b = np.arange(13, 26).resize(3, 3, 2)
-
-c0 = np.concatenate([mass_a, mass_b], axis=0)
-c1 = np.concatenate([mass_a, mass_b], axis=1)
-c2 = np.concatenate([mass_a, mass_b], axis=2)
-print(c0.shape)'''
-
-print(np.r_[ np.array([1, 2, 3]), np.array([4, 5, 6])])
-print(np.c_[ np.array([1, 2, 3]), np.array([4, 5, 6])])
-print(np.hsplit(a, 2))
-print(np.vsplit(a, 2))
-print(np.array_split(a, 2))
+XY = np.vstack([x, y])
+print(np.corrcoef(XY))
+print(np.cov(XY))
