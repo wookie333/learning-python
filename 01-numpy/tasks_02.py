@@ -14,9 +14,9 @@ print(mass1.dtype, mass2.dtype, mass3.dtype)
 # Создай массив [100, 200, 300] с dtype='int8'.
 # Что произойдет? Почему?
 
-'''our_massiv = np.array([100, 200, 300], dtype='int8')
-print(our_massiv)'''
-'''Произойдет переполнение => сделаю через try except'''
+# В NumPy 2.x числа 200 и 300 вне диапазона int8 вызовут OverflowError.
+# try/except обрабатывает эту ошибку создания массива, но не защищает
+# от переполнения при арифметике уже созданных массивов int8.
 
 try:
     our_massiv = np.array([100, 200, 300], dtype='int8')
