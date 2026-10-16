@@ -29,7 +29,7 @@ notes/
 
 ## 📈 Progress
 
-* [ ] NumPy
+* [✓] NumPy
 * [ ] Pandas
 * [ ] Matplotlib
 * [ ] Scikit-learn
