@@ -15,13 +15,13 @@
 
 ```text
 01-numpy/
+    notes/
 02-pandas/
 03-matplotlib/
 04-sklearn/
-notes/
 ```
 
-Сейчас упражнения находятся в `01-numpy/tasks_intro.py` и `01-numpy/tasks_02.py`, конспекты — в `notes/`. Папки `02-pandas`, `03-matplotlib` и `04-sklearn` пока содержат только `.gitkeep`.
+Сейчас упражнения находятся в `01-numpy/tasks_intro.py` и `01-numpy/tasks_02.py`, конспекты — в `01-numpy/notes/`. Папки `02-pandas`, `03-matplotlib` и `04-sklearn` пока содержат только `.gitkeep`.
 
 ## ▶️ Установка и запуск
 
