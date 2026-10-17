@@ -11,51 +11,63 @@
 * **Matplotlib** — визуализация данных
 * **Scikit-learn** — первые шаги в Machine Learning
 
-## 📂 Структура
+## 📂 Структура проекта
 
 ```text
 01-numpy/
-    notes/
+    notes/              # конспекты по NumPy
+    learn_numpy.py
+    tasks_intro.py      # практические упражнения
+    tasks_02.py          # практические упражнения
 02-pandas/
-03-matplotlib/
-04-sklearn/
+    notes/              # конспекты по Pandas
+    learn_pandas.py
+    tasks_02.py          # практические упражнения
+03-matplotlib/          # запланирован, пока только .gitkeep
+04-sklearn/             # запланирован, пока только .gitkeep
 ```
-
-Сейчас упражнения находятся в `01-numpy/tasks_intro.py` и `01-numpy/tasks_02.py`, конспекты — в `01-numpy/notes/`. Папки `02-pandas`, `03-matplotlib` и `04-sklearn` пока содержат только `.gitkeep`.
 
 ## ▶️ Установка и запуск
 
-Команды выполняются из корня проекта. Для текущих упражнений нужен Python 3 и NumPy 2.x.
+Команды выполняются из корня проекта. Нужны Python 3 и зависимости NumPy и Pandas.
 
 На macOS / Linux:
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install "numpy>=2,<3"
 ```
 
-Если `.venv` уже создано, достаточно активировать его и установить NumPy, если он ещё не установлен.
+```bash
+source .venv/bin/activate
+```
 
-Запуск упражнений:
+```bash
+python -m pip install numpy pandas
+```
+
+Примеры запуска упражнений:
 
 ```bash
 python 01-numpy/tasks_intro.py
+```
+
+```bash
 python 01-numpy/tasks_02.py
 ```
 
-Во втором скрипте сообщение `out of bounds for int8` ожидаемо: это результат обработки `OverflowError` в задании про диапазон `int8`.
+```bash
+python 02-pandas/tasks_02.py
+```
 
 ## 🎯 Цель
 
 Разобраться в Python, Data Science и постепенно перейти к Machine Learning и ML Engineering.
 
-## 📈 Progress
+## 📈 Текущий прогресс
 
-* [ ] NumPy
-* [ ] Pandas
-* [ ] Matplotlib
-* [ ] Scikit-learn
-* [ ] ML projects
+* [x] NumPy — изучен на базовом уровне
+* [ ] Pandas — в процессе изучения
+* [ ] Matplotlib — запланирован
+* [ ] Scikit-learn — запланирован
 
 > Learning by doing.
