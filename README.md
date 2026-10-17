@@ -14,17 +14,18 @@
 ## 📂 Структура проекта
 
 ```text
-01-numpy/
-    notes/              # конспекты по NumPy
-    learn_numpy.py
-    tasks_intro.py      # практические упражнения
-    tasks_02.py          # практические упражнения
-02-pandas/
-    notes/              # конспекты по Pandas
-    learn_pandas.py
-    tasks_02.py          # практические упражнения
-03-matplotlib/          # запланирован, пока только .gitkeep
-04-sklearn/             # запланирован, пока только .gitkeep
+learning-python/
+├── 01-numpy/
+│   ├── notes/
+│   ├── practice/
+│   └── learn_numpy.py
+├── 02-pandas/
+│   ├── notes/
+│   ├── practice/
+│   └── learn_pandas.py
+├── 03-matplotlib/
+├── 04-sklearn/
+└── README.md
 ```
 
 ## ▶️ Установка и запуск
@@ -48,15 +49,15 @@ python -m pip install numpy pandas
 Примеры запуска упражнений:
 
 ```bash
-python 01-numpy/tasks_intro.py
+python 01-numpy/practice/tasks_intro.py
 ```
 
 ```bash
-python 01-numpy/tasks_02.py
+python 01-numpy/practice/tasks_02.py
 ```
 
 ```bash
-python 02-pandas/tasks_02.py
+python 02-pandas/practice/tasks_02.py
 ```
 
 ## 🎯 Цель
@@ -65,9 +66,9 @@ python 02-pandas/tasks_02.py
 
 ## 📈 Текущий прогресс
 
-* [x] NumPy — изучен на базовом уровне
-* [ ] Pandas — в процессе изучения
-* [ ] Matplotlib — запланирован
-* [ ] Scikit-learn — запланирован
+* NumPy — многомерные массивы, индексация, фильтрация, broadcasting, числовые операции.
+* Pandas — создание Series и DataFrame, индексация, работа с табличными данными. Изучение продолжается.
+* Matplotlib — запланирован
+* Scikit-learn — запланирован
 
 > Learning by doing.
