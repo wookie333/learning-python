@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">From Python Fundamentals to Machine Learning</title>
+  <desc id="desc">A learning path from Python through data to machine learning, drawn as a connected geometric network on a navy background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111C2D"/><stop offset="1" stop-color="#172E40"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58D5C9"/><stop offset="1" stop-color="#72B7FF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#A4C8E0" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#bg)" stroke="#30485B"/>
+  <rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#grid)"/>
+  <path d="M80 55H152" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="80" y="110" fill="#F0F6FC" font-size="38" font-weight="600" letter-spacing="-.7">Curiosity. Practice. Progress.</text>
+    <text x="80" y="150" fill="#ADC2D5" font-size="23">Python <tspan fill="#5ED6CE">/</tspan> Data <tspan fill="#72B7FF">/</tspan> Machine Learning</text>
+    <text x="80" y="246" fill="#78DAD4" font-size="18" letter-spacing="3">LEARN → PRACTICE → UNDERSTAND → BUILD</text>
+  </g>
+  <g stroke="#6E9FB8" stroke-width="1.5" stroke-opacity=".4">
+    <path d="M886 88L960 55L1040 91L1115 58M886 88L954 150L1040 91L1114 170M954 150L1034 224L1114 170M960 55L954 150M1040 91L1034 224M886 88L865 208L954 150"/>
+  </g>
+  <g fill="#172D40" stroke="#547D97" stroke-width="2">
+    <circle cx="960" cy="55" r="5"/><circle cx="1115" cy="58" r="5"/>
+    <circle cx="865" cy="208" r="5"/><circle cx="1034" cy="224" r="7"/>
+  </g>
+  <g fill="#111F30" stroke="url(#accent)" stroke-width="2.5">
+    <circle cx="886" cy="88" r="10"/><circle cx="954" cy="150" r="14"/>
+    <circle cx="1040" cy="91" r="10"/><circle cx="1114" cy="170" r="10"/>
+  </g>
+  <circle cx="954" cy="150" r="5" fill="#5ED6CE"/>
+</svg>
