@@ -9,7 +9,7 @@
 <p>
   <img src="https://img.shields.io/badge/Python-practice-162638?style=flat&amp;labelColor=243447&amp;color=287D9B" alt="Python — практика">
   <img src="https://img.shields.io/badge/NumPy-studied-162638?style=flat&amp;labelColor=243447&amp;color=287D9B" alt="NumPy — курс пройден">
-  <img src="https://img.shields.io/badge/Pandas-learning-162638?style=flat&amp;labelColor=243447&amp;color=287D9B" alt="Pandas — изучаю">
+  <img src="https://img.shields.io/badge/Pandas-studied-162638?style=flat&amp;labelColor=243447&amp;color=287D9B" alt="Pandas — курс пройден">
   <img src="https://img.shields.io/badge/Git-workflow-162638?style=flat&amp;labelColor=243447&amp;color=287D9B" alt="Git — ведение репозитория">
   <img src="https://img.shields.io/badge/Machine_Learning-goal-162638?style=flat&amp;labelColor=243447&amp;color=287D9B" alt="Machine Learning — цель">
 </p>
@@ -30,8 +30,8 @@
 | :--- | :--- | :--- |
 | **Python Fundamentals** | Закрепляю в практике | Python-код в упражнениях NumPy и Pandas; отдельного курса основ здесь нет |
 | **NumPy** | Курс пройден | [13 конспектов](01-numpy/notes/) и [2 файла практики](01-numpy/practice/): массивы, индексация, агрегации, линейная алгебра, broadcasting |
-| **Pandas** | Изучаю · урок 13 из 19 | [10 конспектов](02-pandas/notes/) и [8 файлов практики](02-pandas/practice/): Series / DataFrame, CSV, индексы, фильтрация, пропуски, `drop`, `astype`, выбор данных, частоты и сортировка |
-| **Matplotlib / Seaborn** | В планах | `03-matplotlib/` — заготовка; учебных материалов пока нет |
+| **Pandas** | Курс пройден | [15 конспектов](02-pandas/notes/) и [13 файлов практики](02-pandas/practice/): Series / DataFrame, CSV, индексы, фильтрация, пропуски, `drop`, `astype`, выбор данных, частоты и сортировка |
+| **Matplotlib / Seaborn** | In Progress | `03-visualization/` — изучаю визуализацию данных с помощью Matplotlib и Seaborn; конспекты и практика пока не добавлены |
 | **SQL** | В планах | Есть краткий пример SQLite в конспекте Pandas; отдельной практики SQL пока нет |
 | **Scikit-learn** | В планах | `04-sklearn/` — заготовка; учебных материалов пока нет |
 | **Machine Learning Projects** | В планах | ML-проекты пока не добавлены |
@@ -45,10 +45,10 @@ learning-python/
 │   ├── practice/              # tasks_intro.py, tasks_02.py
 │   └── learn_numpy.py         # рабочий файл экспериментов
 ├── 02-pandas/
-│   ├── notes/                 # уроки 01–05, 09–13
-│   ├── practice/              # задания 02, 03, 04_05, 09–13
+│   ├── notes/                 # уроки 01–05, 09–17, 19
+│   ├── practice/              # задания 02, 03, 04_05, 09–17, 19
 │   └── learn_pandas.py        # примеры и эксперименты
-├── 03-matplotlib/             # пока только .gitkeep
+├── 03-visualization/          # Matplotlib и Seaborn; пока только .gitkeep
 ├── 04-sklearn/                # пока только .gitkeep
 ├── assets/
 │   └── learning-path.svg      # оформление README
@@ -85,6 +85,7 @@ cd ..
 | :--- | :--- |
 | **Pandas** | Курс **Сергея Дубинина на YouTube**, 19 уроков. Точную ссылку на плейлист предстоит добавить. Текущая тема — [урок 13: уникальные значения, частоты и сортировка](02-pandas/notes/13-unique-counts-sort.md), [практика](02-pandas/practice/tasks_13.py). |
 | **NumPy** | В репозитории сохранены [конспекты уроков 1–13](01-numpy/notes/). Название курса, автор и точная ссылка в существующих файлах не указаны — источник предстоит добавить. |
+| **Matplotlib / Seaborn** | [**Питоника — Matplotlib и Seaborn**](https://pythonika.ru/matplotlib/) — использую этот материал для изучения обеих библиотек. |
 
 **Нумерация Pandas соответствует оригинальному курсу.** Номера Markdown-файлов и практических заданий привязаны к номерам уроков; `tasks_04_05.py` объединяет практику двух уроков. Некоторые темы прохожу обзорно, поэтому отдельных файлов для уроков 06, 07, 08 и других может не быть. Пропуски намеренные, нумерация сохраняется.
 
@@ -94,8 +95,8 @@ cd ..
 
 - [ ] **Python fundamentals** — продолжать закреплять основы в задачах
 - [x] **NumPy** — курс пройден; конспекты и практика сохранены
-- [ ] **Pandas** — продолжить курс после урока 13 из 19
-- [ ] **Matplotlib / Seaborn** — визуализация и исследование данных
+- [x] **Pandas** — курс пройден; конспекты и практика сохранены
+- [ ] **Matplotlib / Seaborn** — In Progress: изучаю визуализацию данных в `03-visualization/`
 - [ ] **SQL** — выборки, объединения, агрегации и оконные функции
 - [ ] **Scikit-learn** — обработка признаков, обучение и оценка моделей
 - [ ] **ML fundamentals** — валидация, метрики, переобучение и утечки данных
